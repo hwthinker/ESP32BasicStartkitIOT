@@ -1,5 +1,5 @@
 # Modul ESP32 doit esp32
-![](https://github.com/hwthinker/esp32-relay8ch/blob/main/picture/1.png)
+![](https://github.com/hwthinker/ESP32BasicStartkitIOT/blob/main/picture/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti.png)
 
 
 # Note ESP32
