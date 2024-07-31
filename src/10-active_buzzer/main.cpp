@@ -1,11 +1,18 @@
-// main2.c
 #include <Arduino.h>
+// Definisikan pin buzzer active
+#define LED_PIN1 18
 
 void setup() {
-    Serial.begin(115200);
-    Serial.println("Hello from actibe buzzer");
+  // Atur kedua pin sebagai output
+  pinMode(LED_PIN1, OUTPUT);
 }
 
 void loop() {
-    delay(1000);
+  // Nyalakan LED pada pin GPIO2 dan matikan LED pada pin GPIO4
+  digitalWrite(LED_PIN1, HIGH);
+  delay(1000); // Tunggu selama 1 detik
+
+  // Matikan LED pada pin GPIO2 dan nyalakan LED pada pin GPIO4
+  digitalWrite(LED_PIN1, LOW);
+  delay(1000); // Tunggu selama 1 detik
 }
