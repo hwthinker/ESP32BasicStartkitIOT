@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-#define RLY1 22
-#define RLY2 21
+#define RLY1 25
+#define RLY2 26
 #define LED 23
 // the setup function runs once when you press reset or power the board
 void setup() {
