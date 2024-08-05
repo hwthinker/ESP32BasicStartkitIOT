@@ -1,3 +1,6 @@
 [submodule "wiki"]
 	path = wiki
 	url = git@github.com:hwthinker/ESP32BasicStartkitIOT.wiki.git
+[submodule "ESP32BasicStartkitIOT.wiki"]
+	path = ESP32BasicStartkitIOT.wiki
+	url = git@github.com:hwthinker/ESP32BasicStartkitIOT.wiki.git
