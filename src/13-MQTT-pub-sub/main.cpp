@@ -24,13 +24,17 @@ const char* humidityTopic = "MQTT@ESP32BasicStartKitIOT/kelembapan";
 const char* lamp1Topic = "MQTT@ESP32BasicStartKitIOT/lamp1";
 const char* lamp2Topic = "MQTT@ESP32BasicStartKitIOT/lamp2";
 
+const char* windowStatusTopic = "MQTT@ESP32BasicStartKitIOT/windowStatus";
+const char* doorStatusTopic = "MQTT@ESP32BasicStartKitIOT/doorStatus";
+const char* pumpStatusTopic = "MQTT@ESP32BasicStartKitIOT/pumpStatus";
+
 // Inisialisasi WiFi dan MQTT Client
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
 // Pin LED
-const int led1Pin = 2; // Pin LED1, bisa diganti sesuai dengan konfigurasi
-const int led2Pin = 4; // Pin LED2, bisa diganti sesuai dengan konfigurasi
+const int led1Pin = 23; // Pin LED1, bisa diganti sesuai dengan konfigurasi
+const int led2Pin = 5;  // Pin LED2, bisa diganti sesuai dengan konfigurasi
 
 // Deklarasi fungsi
 void connectToWiFi();
@@ -38,6 +42,8 @@ void connectToMqttBroker();
 void publishTemperature(float temperature);
 void publishHumidity(float humidity);
 void messageReceived(int messageSize);
+void sendStatusFeedback(const char* topic, const char* status);
+bool getRandomStatus();  // Tambahkan deklarasi fungsi ini di sini
 
 void setup() {
   Serial.begin(115200);
@@ -52,10 +58,12 @@ void setup() {
   // Koneksi ke MQTT Broker
   connectToMqttBroker();
 
-  // Subscribe ke topik lampu
+  // Subscribe ke topik lampu dan permintaan status
   mqttClient.onMessage(messageReceived);
   mqttClient.subscribe(lamp1Topic);
   mqttClient.subscribe(lamp2Topic);
+  // Inisialisasi random seed
+  randomSeed(analogRead(0));
 }
 
 void loop() {
