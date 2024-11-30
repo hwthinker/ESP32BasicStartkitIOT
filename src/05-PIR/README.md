@@ -1,4 +1,4 @@
-### **Tutorial Menggunakan PIR Sensor dengan ESP32**
+### 05:PIR Sensor dengan ESP32
 
 Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sensor) ke **ESP32** untuk mendeteksi gerakan dan menampilkan hasilnya di Serial Monitor.
 

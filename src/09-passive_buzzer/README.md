@@ -1,4 +1,4 @@
-### **Tutorial Mengontrol Buzzer dengan ESP32 menggunakan GPIO18**
+### 09: Mengontrol Buzzer dengan ESP32 menggunakan GPIO18
 
 Pada tutorial ini, kita akan mengontrol buzzer dengan ESP32 menggunakan **GPIO18**. Buzzer akan diaktifkan dan dimatikan secara bergantian dengan interval satu detik menggunakan fungsi `digitalWrite()`.
 

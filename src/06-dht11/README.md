@@ -1,4 +1,4 @@
-### **Tutorial Membaca Suhu dan Kelembapan dengan DHT11 menggunakan ESP32**
+### 06: Tutorial Membaca Suhu dan Kelembapan dengan DHT11 menggunakan ESP32**
 
 Pada tutorial kali ini, kita akan menggunakan **sensor DHT11** untuk membaca data suhu dan kelembapan. Data tersebut akan dibaca oleh ESP32 dan ditampilkan melalui **Serial Monitor**.
 

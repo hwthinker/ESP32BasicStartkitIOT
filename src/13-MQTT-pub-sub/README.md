@@ -1,4 +1,4 @@
-Berikut adalah penjelasan untuk MQTT publisher dan subscriber, termasuk implementasi untuk proyek Anda di ESP32 dan Node-RED:
+### 12: Menggunakan MQTT dengan ESP32 MQTT publisher dan subscriber dengan node-red
 
 ### **MQTT Publisher (ESP32)**
 

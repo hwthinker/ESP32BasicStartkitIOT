@@ -1,4 +1,4 @@
-### **Tutorial Membaca Nilai Analog dengan ESP32 menggunakan GPIO34**
+### 03 Membaca Nilai Analog dengan ESP32 menggunakan GPIO34
 
 Pada tutorial kali ini, kita akan menggunakan ESP32 untuk membaca nilai analog dari pin **GPIO34** dan menampilkannya melalui monitor serial. Pin ini sering digunakan untuk input analog di ESP32 dan mendukung pembacaan sinyal dengan resolusi hingga 12 bit.
 

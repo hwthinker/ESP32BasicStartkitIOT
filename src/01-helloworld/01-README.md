@@ -1,4 +1,4 @@
-### Tutorial: Menampilkan "Hello, World!" pada Serial Monitor dengan Arduino
+### 01: Menampilkan "Hello, World!" pada Serial Monitor dengan Arduino
 
 Pada tutorial ini, kita akan membuat program sederhana di Arduino yang menampilkan pesan **"Hello, World!"** di **Serial Monitor**. Ini adalah langkah pertama yang umum dilakukan saat belajar pemrograman mikrokontroler menggunakan Arduino.
 

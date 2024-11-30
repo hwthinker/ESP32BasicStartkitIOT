@@ -1,4 +1,4 @@
-### **Tutorial Membaca Nilai Analog LDR dengan ESP32 pada GPIO35**
+### 08:Membaca Nilai Analog LDR dengan ESP32 pada GPIO35
 
 Pada tutorial ini, kita akan membaca nilai analog dari pin **GPIO35** pada ESP32 menggunakan fungsi **analogRead()**. Nilai tersebut akan dikirim ke **Serial Monitor** setiap detik.
 

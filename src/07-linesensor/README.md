@@ -1,4 +1,4 @@
-### **Tutorial Penggunaan Sensor Garis dengan ESP32**
+### 07: Penggunaan Sensor Garis dengan ESP32
 
 Pada tutorial ini, kita akan membuat program untuk membaca status dari sensor garis menggunakan ESP32. Sensor garis digunakan untuk mendeteksi apakah suatu objek atau garis ada pada jalurnya, yang sering digunakan dalam robotika untuk mengikuti garis.
 

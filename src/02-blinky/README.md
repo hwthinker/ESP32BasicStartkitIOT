@@ -1,4 +1,4 @@
-### **Tutorial Blinky LED dengan ESP32**
+### 02: Blinky LED dengan ESP32
 
 Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunakan ESP32. LED akan menyala dan mati secara bergantian setiap detik, yang merupakan aplikasi dasar untuk memulai penggunaan pin GPIO pada ESP32.
 

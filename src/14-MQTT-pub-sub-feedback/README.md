@@ -1,4 +1,4 @@
-### Tutorial: Menggunakan MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
+### 14- Menggunakan MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
 
 Pada tutorial ini, kita akan menghubungkan ESP32 ke broker MQTT untuk mengontrol beberapa perangkat seperti lampu, jendela, pintu, dan pompa. Selain itu, kita juga akan menerima dan mengirimkan data sensor, seperti suhu dan kelembaban, menggunakan MQTT.
 

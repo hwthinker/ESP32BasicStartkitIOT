@@ -1,4 +1,4 @@
-### **Tutorial Pengendalian Relay dan LED dengan ESP32**
+### 04: Tutorial Pengendalian Relay dan LED dengan ESP32
 
 Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan sebuah LED menggunakan ESP32. Kode ini akan menyalakan dan mematikan relay dan LED secara bergantian dengan interval 1 detik.
 

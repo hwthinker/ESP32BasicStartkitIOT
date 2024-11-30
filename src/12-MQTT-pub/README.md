@@ -1,4 +1,4 @@
-### **Tutorial Menggunakan MQTT dengan ESP32 untuk Mengirim Data Suhu dan Kelembaban** (simulasi)
+### 12: Menggunakan MQTT dengan ESP32 untuk Mengirim Data Suhu dan Kelembaban (simulasi)
 
 Pada tutorial ini, kita akan menggunakan **ESP32** untuk mengirim data suhu dan kelembaban ke **MQTT Broker** menggunakan protokol MQTT. Kami akan menghubungkan ESP32 ke WiFi dan MQTT broker dan mempublikasikan data suhu dan kelembaban dummy.
 

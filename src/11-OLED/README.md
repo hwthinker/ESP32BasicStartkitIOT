@@ -1,4 +1,4 @@
-### **Tutorial Menggunakan OLED 0.96 I2C dengan ESP32**
+### 11: Menggunakan OLED 0.96 I2C dengan ESP32
 
 Pada tutorial ini, kita akan menghubungkan layar OLED 0.96" I2C ke board ESP32 dan menampilkan teks "Hello, world!" pada layar OLED menggunakan library **Adafruit_SSD1306**.
 
