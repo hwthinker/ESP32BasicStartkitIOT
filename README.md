@@ -179,7 +179,7 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 - [01-helloworld](src/01-helloworld) 
 - [02-blinky](src/02-blinky) 
 - [03-analog](src/03-analog) 
-- [04-relay](sr c/04-relay) 
+- [04-relay](src/04-relay) 
 - [05-PIR](src/05-PIR)  
 - [06-dht11](src/06-dht11) 
 - [07-linesensor](src/07-linesensor) 
