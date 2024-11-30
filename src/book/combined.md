@@ -204,21 +204,21 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 
 ### Project Lainnya
 
-- [01-helloworld](../src/01-helloworld) 
-- [02-blinky](../src/02-blinky) 
-- [03-analog](src/03-analog) 
-- [04-relay](src/04-relay) 
-- [05-PIR](src/05-PIR) 
-- [06-dht11](src/06-dht11) 
-- [07-linesensor](src/07-linesensor) 
-- [08-LDR](src/08-LDR) 
-- [09-passive_buzzer](src/09-passive_buzzer) 
-- [10-active_buzzer](src/10-active_buzzer) 
-- [11-OLED](src/11-OLED) 
-- [12-MQTT-pub](src/12-MQTT-pub) 
-- [13-MQTT-pub-sub](src/13-MQTT-pub-sub) 
-- [14-MQTT-pub-sub-feedback](src/14-MQTT-pub-sub-feedback) 
-- 
+- [01-Hello world](#01-menampilkan-hello-world-pada-serial-monitor-dengan-arduino)
+- [02-blinky](#02-blinky-led-dengan-esp32) 
+- [03-analog](#03-membaca-nilai-analog-dengan-esp32-menggunakan-gpio34) 
+- [04-relay](#04-tutorial-pengendalian-relay-dan-led-dengan-esp32) 
+- [05-PIR](#05-pir-sensor-dengan-esp32) 
+- [06-dht11](#06-tutorial-membaca-suhu-dan-kelembapan-dengan-dht11-menggunakan-esp32) 
+- [07-linesensor](#07-penggunaan-sensor-garis-dengan-esp32) 
+- [08-LDR](#08-membaca-nilai-analog-ldr-dengan-esp32-pada-gpio35) 
+- [09-passive_buzzer](#09-mengontrol-buzzer-dengan-esp32-menggunakan-gpio18) 
+- [10-active_buzzer](#10-mengontrol-buzzer-dengan-esp32-menggunakan-gpio18) 
+- [11-OLED](#11-menggunakan-oled-096-i2c-dengan-esp32) 
+- [12-MQTT-pub](#12-menggunakan-mqtt-dengan-esp32-untuk-mengirim-data-suhu-dan-kelembaban-simulasi) 
+- [13-MQTT-pub-sub](#13-menggunakan-mqtt-dengan-esp32-mqtt-publisher-dan-subscriber-dengan-node-red) 
+- [14-MQTT-pub-sub-feedback](#14-mqtt-dengan-esp32-untuk-kontrol-perangkat-dan-feedback-status) 
+
 
 ### Troubleshooting Upload
 
@@ -386,7 +386,7 @@ Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunaka
 
 Dengan tutorial ini, Anda dapat memulai eksperimen dengan kontrol dasar GPIO pada ESP32 dan mengembangkan aplikasi yang lebih kompleks di masa depan.
 
-## 03 Membaca Nilai Analog dengan ESP32 menggunakan GPIO34
+## 03: Membaca Nilai Analog dengan ESP32 menggunakan GPIO34
 
 Pada tutorial kali ini, kita akan menggunakan ESP32 untuk membaca nilai analog dari pin **GPIO34** dan menampilkannya melalui monitor serial. Pin ini sering digunakan untuk input analog di ESP32 dan mendukung pembacaan sinyal dengan resolusi hingga 12 bit.
 
@@ -521,7 +521,7 @@ Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan s
 
 Dengan tutorial ini, Anda dapat mengendalikan perangkat berbasis relay menggunakan ESP32, yang sangat berguna dalam aplikasi otomasi rumah atau proyek lain yang membutuhkan pengendalian perangkat jarak jauh
 
-## 05:PIR Sensor dengan ESP32
+## 05: PIR Sensor dengan ESP32
 
 Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sensor) ke **ESP32** untuk mendeteksi gerakan dan menampilkan hasilnya di Serial Monitor.
 
@@ -739,7 +739,7 @@ Pada tutorial ini, kita akan membuat program untuk membaca status dari sensor ga
 Dengan tutorial ini, Anda dapat mulai menggunakan sensor garis dengan ESP32 untuk aplikasi robotika atau proyek lain yang memerlukan deteksi garis.
 
 
-## 08:Membaca Nilai Analog LDR dengan ESP32 pada GPIO35
+## 08: Membaca Nilai Analog LDR dengan ESP32 pada GPIO35
 
 Pada tutorial ini, kita akan membaca nilai analog dari pin **GPIO35** pada ESP32 menggunakan fungsi **analogRead()**. Nilai tersebut akan dikirim ke **Serial Monitor** setiap detik.
 
@@ -1459,7 +1459,7 @@ Node-RED digunakan untuk menerima data dari broker MQTT dan menampilkannya di an
 
 Dengan menggunakan kombinasi publisher di ESP32 dan subscriber di Node-RED, Anda dapat membuat sistem monitoring suhu dan kelembapan yang dapat diakses melalui dashboard. Anda juga dapat mengontrol perangkat lain seperti lampu menggunakan MQTT commands
 
-## 14- MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
+## 14: MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
 
 Pada tutorial ini, kita akan menghubungkan ESP32 ke broker MQTT untuk mengontrol beberapa perangkat seperti lampu, jendela, pintu, dan pompa. Selain itu, kita juga akan menerima dan mengirimkan data sensor, seperti suhu dan kelembaban, menggunakan MQTT.
 
