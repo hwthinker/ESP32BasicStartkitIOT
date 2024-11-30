@@ -204,8 +204,8 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 
 ### Project Lainnya
 
-- [01-helloworld](src/01-helloworld) 
-- [02-blinky](src/02-blinky) 
+- [01-helloworld](../src/01-helloworld) 
+- [02-blinky](../src/02-blinky) 
 - [03-analog](src/03-analog) 
 - [04-relay](src/04-relay) 
 - [05-PIR](src/05-PIR) 
@@ -218,6 +218,7 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 - [12-MQTT-pub](src/12-MQTT-pub) 
 - [13-MQTT-pub-sub](src/13-MQTT-pub-sub) 
 - [14-MQTT-pub-sub-feedback](src/14-MQTT-pub-sub-feedback) 
+- 
 
 ### Troubleshooting Upload
 
