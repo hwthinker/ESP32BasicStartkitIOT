@@ -176,20 +176,20 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 
 ## Project Lainnya
 
- [01-helloworld](src/01-helloworld) 
- [02-blinky](src/02-blinky) 
- [03-analog](src/03-analog) 
- [04-relay](src/04-relay) 
- [05-PIR](src/05-PIR)  
- [06-dht11](src/06-dht11) 
- [07-linesensor](src/07-linesensor) 
- [08-LDR](src/08-LDR)  
- [09-passive_buzzer](src/09-passive_buzzer)  
- [10-active_buzzer](src/10-active_buzzer)  
- [11-OLED](src/11-OLED)  
- [12-MQTT-pub](src/12-MQTT-pub)  
- [13-MQTT-pub-sub](src/13-MQTT-pub-sub) 
- [14-MQTT-pub-sub-feedback](src/14-MQTT-pub-sub-feedback) 
+- [01-helloworld](src/01-helloworld) 
+- [02-blinky](src/02-blinky) 
+- [03-analog](src/03-analog) 
+- [04-relay](sr c/04-relay) 
+- [05-PIR](src/05-PIR)  
+- [06-dht11](src/06-dht11) 
+- [07-linesensor](src/07-linesensor) 
+- [08-LDR](src/08-LDR)  
+- [09-passive_buzzer](src/09-passive_buzzer)  
+- [10-active_buzzer](src/10-active_buzzer)  
+- [11-OLED](src/11-OLED)  
+- [12-MQTT-pub](src/12-MQTT-pub)  
+- [13-MQTT-pub-sub](src/13-MQTT-pub-sub) 
+- [14-MQTT-pub-sub-feedback](src/14-MQTT-pub-sub-feedback) 
 
 ### Troubleshooting Upload
 
