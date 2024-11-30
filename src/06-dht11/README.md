@@ -1,15 +1,15 @@
-### 06: Tutorial Membaca Suhu dan Kelembapan dengan DHT11 menggunakan ESP32**
+## 06: Tutorial Membaca Suhu dan Kelembapan dengan DHT11 menggunakan ESP32
 
 Pada tutorial kali ini, kita akan menggunakan **sensor DHT11** untuk membaca data suhu dan kelembapan. Data tersebut akan dibaca oleh ESP32 dan ditampilkan melalui **Serial Monitor**.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - **Sensor DHT11**
 - Kabel jumper
 - Breadboard
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -19,7 +19,7 @@ Pada tutorial kali ini, kita akan menggunakan **sensor DHT11** untuk membaca dat
 
    **Catatan:** Pastikan sambungan sudah benar, dan periksa kembali apakah sensor DHT11 yang Anda gunakan memiliki pinout yang sesuai dengan yang dijelaskan.
 
-   ![DHT11](./assets/DHT11.png)
+   ![Koneksi DHT11 ke ESP32](./assets/DHT11.png)
 
 2. **Kode Program:**
 
@@ -76,7 +76,7 @@ Pada tutorial kali ini, kita akan menggunakan **sensor DHT11** untuk membaca dat
    Kelembapan: 60.00 %    Suhu: 25.00 *C
    ```
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika tidak ada data yang muncul atau nilai yang terbaca salah (misalnya NaN), pastikan kabel sudah terhubung dengan benar, terutama kabel **DATA** pada pin yang tepat.
 - Jika pesan "Gagal membaca dari sensor DHT!" muncul, pastikan sensor dalam kondisi baik dan terhubung dengan benar.

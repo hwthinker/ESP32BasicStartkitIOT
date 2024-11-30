@@ -1,15 +1,15 @@
-### 05:PIR Sensor dengan ESP32
+## 05:PIR Sensor dengan ESP32
 
 Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sensor) ke **ESP32** untuk mendeteksi gerakan dan menampilkan hasilnya di Serial Monitor.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - **PIR Sensor** (misalnya HC-SR501)
 - Kabel jumper
 - Breadboard (opsional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -17,7 +17,7 @@ Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sens
    - **GND** dari PIR sensor dihubungkan ke **GND** pada ESP32.
    - **OUT** dari PIR sensor dihubungkan ke **GPIO19** pada ESP32.
 
-   ![pir](./assets/pir.png)
+   ![Koneksi PIR ke ESP32 ](./assets/pir.png)
 
 2. **Kode Program:**
 
@@ -42,7 +42,7 @@ Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sens
    }
    ```
 
-3. **Penjelasan Kode:**
+3. ### Penjelasan Kode:
 
    - **`#include <Arduino.h>`**: Menyertakan library Arduino untuk mendukung penggunaan ESP32.
    - **`const int pirPin = 19;`**: Mendefinisikan pin GPIO19 sebagai tempat sensor PIR terhubung.
@@ -53,7 +53,7 @@ Pada tutorial ini, kita akan menghubungkan **PIR Sensor** (Passive Infrared Sens
 
 4. **Upload dan Monitor Hasil:** Setelah meng-upload kode ke ESP32, buka **Serial Monitor** (dengan baud rate 115200) untuk melihat hasilnya. Jika PIR sensor mendeteksi gerakan, maka akan muncul pesan "Object detected" pada Serial Monitor setiap kali gerakan terdeteksi. Jika tidak ada gerakan, maka tidak ada pesan yang akan ditampilkan.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Pastikan koneksi sensor PIR ke ESP32 sudah benar (VCC ke 5V, GND ke GND, dan OUT ke GPIO19).
 - Jika sensor tidak memberikan hasil yang diinginkan, coba periksa sensitivitas dan waktu delay pada sensor PIR (pada modul seperti HC-SR501, ada potensi pengaturan untuk menyesuaikan sensitivitas).

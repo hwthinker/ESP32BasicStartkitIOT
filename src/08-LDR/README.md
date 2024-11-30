@@ -1,21 +1,21 @@
-### 08:Membaca Nilai Analog LDR dengan ESP32 pada GPIO35
+## 08:Membaca Nilai Analog LDR dengan ESP32 pada GPIO35
 
 Pada tutorial ini, kita akan membaca nilai analog dari pin **GPIO35** pada ESP32 menggunakan fungsi **analogRead()**. Nilai tersebut akan dikirim ke **Serial Monitor** setiap detik.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - Kabel jumper
 - Breadboard (opsional, tergantung pengaturan)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
    - **GPIO35** adalah salah satu pin input analog pada ESP32. Anda dapat menghubungkan sumber sinyal analog ke pin ini, misalnya potensiometer atau sensor analog lainnya.
    - Tidak ada koneksi eksternal yang wajib selain dari pin **GPIO35** yang digunakan untuk membaca sinyal analog.
 
-   ![ldr](./assets/ldr.png)
+   ![Koneksi LDR ke ESP32](./assets/ldr.png)
 
 2. **Kode Program:**
 
@@ -56,7 +56,7 @@ Pada tutorial ini, kita akan membaca nilai analog dari pin **GPIO35** pada ESP32
    Nilai Analog: 3800
    ```
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika nilai yang dibaca selalu **0** atau **4095**, periksa apakah ada sinyal analog yang benar-benar terhubung ke **GPIO35**.
 - Jika tidak ada data yang muncul di **Serial Monitor**, pastikan Anda sudah menghubungkan ESP32 dengan benar ke komputer dan memilih port yang tepat di Arduino IDE.

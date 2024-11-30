@@ -1,8 +1,8 @@
-### 04: Tutorial Pengendalian Relay dan LED dengan ESP32
+## 04: Tutorial Pengendalian Relay dan LED dengan ESP32
 
 Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan sebuah LED menggunakan ESP32. Kode ini akan menyalakan dan mematikan relay dan LED secara bergantian dengan interval 1 detik.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - 2 **Relay Modul** (misalnya 5V Relay)
@@ -10,7 +10,7 @@ Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan s
 - Kabel jumper
 - Breadboard (opsional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -18,7 +18,7 @@ Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan s
    - Hubungkan LED ke pin **GPIO23**.
    - Pastikan relay dan LED terhubung ke sumber daya yang sesuai. Pastikan juga relay dapat mengendalikan beban yang sesuai (misalnya lampu atau perangkat lain).
 
-   ![Relay](./assets/Relay.png)
+   ![Koneksi Relay ke ESP32](./assets/Relay.png)
 
 2. **Kode Program:**
 
@@ -69,7 +69,7 @@ Pada tutorial ini, kita akan membuat program untuk mengendalikan dua relay dan s
 
 4. **Upload dan Monitor Hasil:** Setelah meng-upload kode ke ESP32, relay dan LED akan menyala dan mati secara bergantian setiap detik. Anda akan melihat Relay 1 dan Relay 2 serta LED menyala dan mati dalam urutan yang sudah ditentukan.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika relay tidak bekerja dengan benar, periksa koneksi kabel dan pastikan relay mendapatkan sumber daya yang cukup.
 - Jika LED tidak menyala, pastikan koneksi ke pin **GPIO23** sudah benar dan LED terhubung dengan benar ke ground.

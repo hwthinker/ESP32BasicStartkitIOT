@@ -1,15 +1,15 @@
-### 11: Menggunakan OLED 0.96 I2C dengan ESP32
+## 11: Menggunakan OLED 0.96 I2C dengan ESP32
 
 Pada tutorial ini, kita akan menghubungkan layar OLED 0.96" I2C ke board ESP32 dan menampilkan teks "Hello, world!" pada layar OLED menggunakan library **Adafruit_SSD1306**.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - **OLED 0.96 I2C Display**
 - Kabel jumper
 - Breadboard (opsional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -18,7 +18,7 @@ Pada tutorial ini, kita akan menghubungkan layar OLED 0.96" I2C ke board ESP32 d
    - **SDA** dari OLED dihubungkan ke **GPIO21** (default SDA pada ESP32).
    - **SCL** dari OLED dihubungkan ke **GPIO22** (default SCL pada ESP32).
 
-   ![oled](./assets/oled.png)
+   ![Koneksi LED ke ESP32](./assets/oled.png)
 
 2. **Kode Program:**
 
@@ -79,7 +79,7 @@ Pada tutorial ini, kita akan menghubungkan layar OLED 0.96" I2C ke board ESP32 d
 
 4. **Upload dan Monitor Hasil:** Setelah meng-upload kode ke ESP32, Anda akan melihat pesan "Hello, world!" muncul pada layar OLED. Jika layar tidak menampilkan teks, pastikan sambungan kabel I2C sudah benar dan alamat I2C (0x3C) sudah sesuai dengan yang digunakan oleh modul OLED Anda.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika tampilan kosong atau error muncul, pastikan alamat I2C yang digunakan sesuai. Anda bisa memeriksa alamat I2C dengan scanner I2C.
 - Periksa sambungan SDA dan SCL ke pin yang benar pada ESP32 (GPIO21 untuk SDA dan GPIO22 untuk SCL).

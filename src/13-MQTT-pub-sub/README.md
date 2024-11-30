@@ -1,6 +1,6 @@
-### 12: Menggunakan MQTT dengan ESP32 MQTT publisher dan subscriber dengan node-red
+## 13: Menggunakan MQTT dengan ESP32 MQTT publisher dan subscriber dengan node-red
 
-### **MQTT Publisher (ESP32)**
+### MQTT Publisher (ESP32)
 
 Publisher ini mengirimkan data suhu dan kelembapan secara periodik ke broker MQTT. Selain itu, publisher ini juga mendengarkan perintah untuk menghidupkan atau mematikan lampu dengan menggunakan tombol MQTT.
 
@@ -117,7 +117,7 @@ void loop() {
 }
 ```
 
-### **MQTT Subscriber (Node-RED)**
+### MQTT Subscriber (Node-RED)
 
 Node-RED digunakan untuk menerima data dari broker MQTT dan menampilkannya di antarmuka pengguna menggunakan `ui_gauge`. Ini juga dapat mengontrol perangkat (seperti lampu) menggunakan tombol.
 

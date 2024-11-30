@@ -1,8 +1,8 @@
-### 09: Mengontrol Buzzer dengan ESP32 menggunakan GPIO18
+## 09: Mengontrol Buzzer dengan ESP32 menggunakan GPIO18
 
 Pada tutorial ini, kita akan mengontrol buzzer dengan ESP32 menggunakan **GPIO18**. Buzzer akan diaktifkan dan dimatikan secara bergantian dengan interval satu detik menggunakan fungsi `digitalWrite()`.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - Board **ESP32** (misalnya ESP32 DevKit V1)
 - 1 buah **buzzer aktif** (Active Buzzer)
@@ -10,7 +10,7 @@ Pada tutorial ini, kita akan mengontrol buzzer dengan ESP32 menggunakan **GPIO18
 - Kabel jumper
 - Breadboard
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -19,7 +19,7 @@ Pada tutorial ini, kita akan mengontrol buzzer dengan ESP32 menggunakan **GPIO18
 
    **Catatan:** Jika buzzer Anda aktif, cukup sambungkan langsung ke pin GPIO tanpa resistor.
 
-![buzzer](./assets/buzzer.png)
+![Koneksi buzzer ke ESP32](./assets/buzzer.png)
 
 2. **Kode Program:**
 
@@ -54,11 +54,9 @@ Pada tutorial ini, kita akan mengontrol buzzer dengan ESP32 menggunakan **GPIO18
 
 4. **Upload dan Monitor Hasil:** Setelah Anda meng-upload kode ke ESP32, buzzer yang terhubung ke GPIO18 akan berbunyi selama 1 detik, kemudian berhenti selama 1 detik, dan siklus ini akan terus berulang.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika buzzer tidak berbunyi, pastikan koneksi sudah benar dan buzzer Anda dalam keadaan aktif (buzzer aktif hanya memerlukan tegangan untuk beroperasi).
 - Jika buzzer tidak berhenti berbunyi, periksa kembali apakah kode telah ter-upload dengan benar dan pastikan pin GPIO yang digunakan sesuai dengan yang terhubung.
 
 Dengan tutorial ini, Anda dapat mulai mengontrol buzzer menggunakan ESP32, yang sangat berguna untuk aplikasi pemberitahuan suara atau alarm.
-
-------

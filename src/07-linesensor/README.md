@@ -1,22 +1,22 @@
-### 07: Penggunaan Sensor Garis dengan ESP32
+## 07: Penggunaan Sensor Garis dengan ESP32
 
 Pada tutorial ini, kita akan membuat program untuk membaca status dari sensor garis menggunakan ESP32. Sensor garis digunakan untuk mendeteksi apakah suatu objek atau garis ada pada jalurnya, yang sering digunakan dalam robotika untuk mengikuti garis.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - **Sensor Garis** (misalnya sensor garis TCS3200 atau sensor analog sederhana)
 - Kabel jumper
 - Breadboard (opsional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
    - Hubungkan sensor garis ke **pin GPIO5** pada ESP32.
    - Pastikan sensor garis terhubung ke sumber daya yang sesuai. Sensor ini biasanya memiliki tiga pin: VCC, GND, dan output (yang akan dihubungkan ke pin GPIO pada ESP32).
 
-   ![line](./assets/line.png)
+   ![Koneksi Line Sensor ke ESP32](./assets/line.png)
 
 2. **Kode Program:**
 
@@ -60,7 +60,7 @@ Pada tutorial ini, kita akan membuat program untuk membaca status dari sensor ga
 
 4. **Upload dan Monitor Hasil:** Setelah meng-upload kode ke ESP32, buka Serial Monitor di Arduino IDE. Anda akan melihat pesan yang menunjukkan apakah garis terdeteksi atau tidak berdasarkan pembacaan sensor. Jika sensor berada di atas garis hitam, pesan "Garis terdeteksi!" akan muncul, jika tidak, akan muncul pesan "Tidak ada garis."
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika sensor tidak memberikan pembacaan yang akurat, pastikan sensor garis terpasang dengan benar dan berada dalam jarak yang tepat dari garis.
 - Jika sensor membaca **HIGH** meskipun ada garis, pastikan sensor terhubung dengan benar dan cobalah menyesuaikan posisi atau jenis sensor yang digunakan.

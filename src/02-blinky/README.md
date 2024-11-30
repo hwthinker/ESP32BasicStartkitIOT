@@ -1,8 +1,8 @@
-### 02: Blinky LED dengan ESP32
+## 02: Blinky LED dengan ESP32
 
 Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunakan ESP32. LED akan menyala dan mati secara bergantian setiap detik, yang merupakan aplikasi dasar untuk memulai penggunaan pin GPIO pada ESP32.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - **LED**
@@ -10,7 +10,7 @@ Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunaka
 - Kabel jumper
 - Breadboard (opsional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -18,7 +18,7 @@ Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunaka
    - Gunakan resistor 220Ω untuk membatasi arus dan melindungi LED agar tidak rusak.
    - Pastikan LED terhubung ke ground (GND) melalui resistor.
 
-   ![LED](./assets/LED.png)
+   ![Koneksi LED ke ESP32](./assets/LED.png)
 
 2. **Kode Program:**
 
@@ -54,7 +54,7 @@ Pada tutorial ini, kita akan membuat program **blinky LED** sederhana menggunaka
 
 4. **Upload dan Monitor Hasil:** Setelah meng-upload kode ke ESP32, LED yang terhubung dengan GPIO23 akan mulai berkedip, menyala selama 1 detik dan mati selama 1 detik. Ini adalah contoh sederhana untuk mengendalikan LED menggunakan ESP32.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika LED tidak menyala, periksa apakah kabel terhubung dengan benar dan pastikan LED serta resistor dipasang dengan benar.
 - Jika LED berkedip terlalu cepat atau terlalu lambat, Anda bisa menyesuaikan nilai delay (misalnya, ubah `delay(1000);` menjadi nilai yang lebih besar atau lebih kecil).

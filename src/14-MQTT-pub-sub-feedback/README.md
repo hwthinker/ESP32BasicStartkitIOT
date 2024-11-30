@@ -1,15 +1,15 @@
-### 14- Menggunakan MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
+## 14- MQTT dengan ESP32 untuk Kontrol Perangkat dan Feedback Status
 
 Pada tutorial ini, kita akan menghubungkan ESP32 ke broker MQTT untuk mengontrol beberapa perangkat seperti lampu, jendela, pintu, dan pompa. Selain itu, kita juga akan menerima dan mengirimkan data sensor, seperti suhu dan kelembaban, menggunakan MQTT.
 
-**Prasyarat:**
+### Prasyarat:
 
 1. **ESP32**: Digunakan untuk mengontrol perangkat dan membaca data sensor.
 2. **WiFi**: ESP32 terhubung ke WiFi untuk dapat mengakses broker MQTT.
 3. **Broker MQTT**: Menggunakan broker publik seperti `broker.mqtt-dashboard.com` untuk komunikasi data.
 4. **Mosquitto**: Digunakan untuk mengirimkan dan menerima pesan melalui MQTT dari terminal.
 
-**Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapkan Hardware dan Koneksi**
    - Sambungkan ESP32 ke WiFi dengan memasukkan SSID dan password di kode.

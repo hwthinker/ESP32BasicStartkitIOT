@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocbibind}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{mdframed}
+\usepackage{upquote}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{soul}
+
+% Definisi warna untuk syntax highlighting
+\definecolor{bgcolor}{RGB}{248,248,248}
+\definecolor{kwdcolor}{RGB}{0,0,255}
+\definecolor{commentcolor}{RGB}{170,34,255}
+\definecolor{stringcolor}{RGB}{170,34,34}
+
+% Definisi lingkungan Highlighting dan Shaded
+\newenvironment{Highlighting}{\begin{mdframed}[backgroundcolor=bgcolor]}{\end{mdframed}}
+\newenvironment{Shaded}{\begin{mdframed}[backgroundcolor=bgcolor]}{\end{mdframed}}
+
+% Konfigurasi Syntax Highlighting
+\lstset{
+    backgroundcolor=\color{bgcolor},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    breakatwhitespace=true,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    captionpos=b,
+    frame=single,
+    framerule=0.5pt,
+    frameround=tttt
+}
+
+% Judul dan Metadata
+\title{ESP32 Basic Starter Kit Tutorial}
+\author{HwThinker}
+\date{30-11-2024}
+
+% Margin settings
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{Getting Started ESP32}
+\fancyfoot[R]{\thepage}
+
+% TOC Configuration
+\renewcommand{\contentsname}{Daftar Isi}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+% Definisi untuk daftar ketat
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% New page for each H3 section
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \huge\bfseries \@chapapp\space \thechapter
+    \fi
+    \interlineskip
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+
+\def\section{\@startsection{section}{1}{\z@}%
+  {-3.5ex \@plus -1ex \@minus -.2ex}%
+  {2.3ex \@plus.2ex}%
+  {\newpage\normalfont\Large\bfseries}}
+\makeatother
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+$body$
+\end{document}

@@ -1,15 +1,15 @@
-### 12: Menggunakan MQTT dengan ESP32 untuk Mengirim Data Suhu dan Kelembaban (simulasi)
+## 12: Menggunakan MQTT dengan ESP32 untuk Mengirim Data Suhu dan Kelembaban (simulasi)
 
 Pada tutorial ini, kita akan menggunakan **ESP32** untuk mengirim data suhu dan kelembaban ke **MQTT Broker** menggunakan protokol MQTT. Kami akan menghubungkan ESP32 ke WiFi dan MQTT broker dan mempublikasikan data suhu dan kelembaban dummy.
 
-#### **Alat dan Bahan yang Dibutuhkan:**
+### Alat dan Bahan yang Dibutuhkan:
 
 - **ESP32** (misalnya ESP32 DevKit V1)
 - Koneksi internet (untuk WiFi dan MQTT broker)
 - **MQTT Broker** seperti `broker.mqtt-dashboard.com` (untuk testing)
 - **Mosquitto Client** (untuk subscribe data di broker MQTT, optional)
 
-#### **Langkah-langkah:**
+### Langkah-langkah:
 
 1. **Persiapan dan Koneksi:**
 
@@ -146,7 +146,7 @@ Pada tutorial ini, kita akan menggunakan **ESP32** untuk mengirim data suhu dan 
    - Setelah meng-upload kode ke ESP32, buka **Serial Monitor** (dengan baud rate 115200).
    - Anda akan melihat data suhu dan kelembaban yang dipublikasikan secara berkala ke broker MQTT.
 
-#### **Pemecahan Masalah:**
+### Pemecahan Masalah:
 
 - Jika ESP32 tidak dapat terhubung ke WiFi atau MQTT Broker, periksa kembali konfigurasi jaringan dan pastikan ESP32 terhubung dengan benar.
 - Jika tidak ada data yang muncul di **Serial Monitor** atau **mosquitto-client**, periksa apakah topik dan alamat broker sudah benar.

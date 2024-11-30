@@ -1,0 +1,23 @@
+\documentclass[11pt,a4paper]{book}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{ESP32 getting started}
+\fancyfoot[C]{ESP32 getting started}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$author$}
+$endif$
+
+\begin{document}
+$if(title)$
+\maketitle
+$endif$
+
+$body$
+\end{document}
