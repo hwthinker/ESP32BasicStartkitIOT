@@ -1,8 +1,3 @@
----
-include-before:
-  - \licensepage
----
-
 # Modul ESP32 Basic Startkit IOT 
 
 ![ESP32 Kit](./assets/ESP32-Kit.png)
