@@ -1,6 +1,7 @@
 title: "ESP32 Basic Starter Kit Tutorial"
 author: "HwThinker"
 date: "30-11-2024"
+version: "1.01"
 documentclass: book
 geometry: margin=1in
 toc: true
@@ -11,4 +12,3 @@ header-includes:
   - \input{header-config.tex}
 include-before:
   - \licensepage
-

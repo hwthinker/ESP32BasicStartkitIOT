@@ -1,0 +1,24 @@
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}  % Tambahkan opsi hidelinks
+\usepackage{url}  % Tambahkan paket url
+
+% Konfigurasi hyperref untuk tautan header
+\hypersetup{
+    pdfencoding=auto,    % Encoding otomatis
+    linkbordercolor=white, % Hilangkan border pada tautan
+    urlcolor=blue,       % Warna url
+    colorlinks=false,    % Nonaktifkan warna tautan
+    urlbordercolor=white % Hilangkan border url
+}
+
+% Perintah untuk membuat tautan header aman
+\makeatletter
+\def\MakeUppercaseHead#1{\@gobble{#1}}
+\makeatother
+
+\newcommand{\safelink}[1]{%
+    \MakeUppercaseHead{#1}%
+    \texorpdfstring{#1}{#1}%
+}

@@ -1,3 +1,18 @@
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tocbibind}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{ESP32 getting started by HwThinker}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\sectionbreak}{\clearpage}
+\captionsetup[figure]{name=Gambar}
+\renewcommand{\listfigurename}{Daftar Gambar}
+
 % Lisensi Dokumen
 \newcommand{\licensepage}{
     \newpage
@@ -6,9 +21,18 @@
 
         \includegraphics[width=0.2\textwidth]{cc-by-sa.png}
 
-        Copyright © 2016 by Akhmad Hendriawan
+        Copyright © 2024 by hwthinker@gmail.com
 
         Seluruh dokumen ini dapat digunakan dan disebarkan secara bebas untuk tujuan bukan komersial (nonprofit), dengan syarat tidak menghapus atau merubah atribut penulis dan pernyataan copyright yang disertakan dalam setiap dokumen. Tidak diperbolehkan melakukan penulisan ulang.
     \end{center}
 }
 
+% Menambahkan versi dokumen
+\newcommand{\versionpage}{
+    \begin{center}
+        \textit{Version: \textbf{\theversion}}
+    \end{center}
+}
+
+% Menggunakan versi yang diset di metadata.yaml
+\def\theversion{1.01}
