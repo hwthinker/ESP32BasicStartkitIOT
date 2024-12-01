@@ -1439,7 +1439,7 @@ Node-RED digunakan untuk menerima data dari broker MQTT dan menampilkannya di an
 - **UI Gauge** menampilkan data suhu dan kelembapan secara visual pada dashboard.
 - **Debug Nodes** digunakan untuk menampilkan data pada sidebar debug.
 
-### **Kesimpulan**
+### Kesimpulan
 
 Dengan menggunakan kombinasi publisher di ESP32 dan subscriber di Node-RED, Anda dapat membuat sistem monitoring suhu dan kelembapan yang dapat diakses melalui dashboard. Anda juga dapat mengontrol perangkat lain seperti lampu menggunakan MQTT commands
 
