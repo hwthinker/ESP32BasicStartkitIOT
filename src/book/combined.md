@@ -1,3 +1,8 @@
+---
+include-before:
+  - \licensepage
+---
+
 # Modul ESP32 Basic Startkit IOT 
 
 ![ESP32 Kit](./assets/ESP32-Kit.png)
@@ -202,22 +207,6 @@ ESP32 memiliki dua tombol penting untuk proses upload:
 > ESP32 Doit Devkit V1 ada beberapa varian chip serial  yaitu varian dengan chip serial ch9102 ,CP2102 atau CH340. pastikan anda menginstall driver serial USB yang benar. 
 > Download driver lewat google dengan kata kunci download driver ch9102/CP2102/ch340
 
-### Project Lainnya
-
-- [01-Hello world](#01-menampilkan-hello-world-pada-serial-monitor-dengan-arduino)
-- [02-blinky](#02-blinky-led-dengan-esp32) 
-- [03-analog](#03-membaca-nilai-analog-dengan-esp32-menggunakan-gpio34) 
-- [04-relay](#04-tutorial-pengendalian-relay-dan-led-dengan-esp32) 
-- [05-PIR](#05-pir-sensor-dengan-esp32) 
-- [06-dht11](#06-tutorial-membaca-suhu-dan-kelembapan-dengan-dht11-menggunakan-esp32) 
-- [07-linesensor](#07-penggunaan-sensor-garis-dengan-esp32) 
-- [08-LDR](#08-membaca-nilai-analog-ldr-dengan-esp32-pada-gpio35) 
-- [09-passive_buzzer](#09-mengontrol-buzzer-dengan-esp32-menggunakan-gpio18) 
-- [10-active_buzzer](#10-mengontrol-buzzer-dengan-esp32-menggunakan-gpio18) 
-- [11-OLED](#11-menggunakan-oled-096-i2c-dengan-esp32) 
-- [12-MQTT-pub](#12-menggunakan-mqtt-dengan-esp32-untuk-mengirim-data-suhu-dan-kelembaban-simulasi) 
-- [13-MQTT-pub-sub](#13-menggunakan-mqtt-dengan-esp32-mqtt-publisher-dan-subscriber-dengan-node-red) 
-- [14-MQTT-pub-sub-feedback](#14-mqtt-dengan-esp32-untuk-kontrol-perangkat-dan-feedback-status) 
 
 
 ### Troubleshooting Upload

@@ -1,45 +1,24 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{tikz}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}  % Tambahkan opsi hidelinks
+\usepackage{url}  % Tambahkan paket url
 
-\newcommand{\copyrightpage}{%
-    \newpage
-    \thispagestyle{empty}
-    \begin{center}
-        \textbf{Lisensi Dokumen:} \\[1ex]
-        Copyright \textcopyright\ 2024 by HwThinker \\[2ex]
-        
-        Seluruh dokumen ini  dapat digunakan dan  disebarkan secara bebas untuk tujuan bukan komersial (nonprofit), 
-        dengan syarat tidak menghapus atau merubah atribut penulis dan pernyataan copyright yang disertakan dalam setiap dokumen. 
-        Tidak diperbolehkan melakukan penulisan ulang.
-    \end{center}
-    \newpage
+% Konfigurasi hyperref untuk tautan header
+\hypersetup{
+    pdfencoding=auto,    % Encoding otomatis
+    linkbordercolor=white, % Hilangkan border pada tautan
+    urlcolor=blue,       % Warna url
+    colorlinks=false,    % Nonaktifkan warna tautan
+    urlbordercolor=white % Hilangkan border url
 }
 
+% Perintah untuk membuat tautan header aman
 \makeatletter
-\renewcommand{\maketitle}{%
-    \begin{titlepage}
-        \centering
-        \vspace*{2cm}
-        {\huge\bfseries ESP32 Basic Starter Kit Tutorial \par}
-        \vspace{1cm}
-        {\Large HwThinker \par}
-        \vspace{0.5cm}
-        {\large Versi 1.01 \par}
-        \vspace{0.5cm}
-        {\large 30-11-2024 \par}
-        \vfill
-    \end{titlepage}
-}
+\def\MakeUppercaseHead#1{\@gobble{#1}}
 \makeatother
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{ESP32 getting started}
-\fancyfoot[C]{\thepage}
-
-\AtBeginDocument{%
-    \copyrightpage
-    \maketitle
+\newcommand{\safelink}[1]{%
+    \MakeUppercaseHead{#1}%
+    \texorpdfstring{#1}{#1}%
 }
