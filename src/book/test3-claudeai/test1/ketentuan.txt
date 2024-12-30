@@ -1,0 +1,15 @@
+Saya adalah pengguna ubuntu 24.04 yang ingin melakukan konversi file markdown saya ke ebook pdf yang profesionan menggunakan software pandoc. File input markdown saya adalah "mybook.md" yang saya ingin konversi menjadi ebook pdf dengan namafile"output.pdf". Output Ebook pdf mempunyai ketentuan:
+- Pada halaman Pertama terdapat terdapat Judul buku " Memulai Belajar ESP32" dan menampilkan file gambar.png sebagai sampul halaman
+- Pada Halaman Kedua  terdapat Pernyataan lisensi Dokumen 
+   Lisensi Dokumen:
+   Copyright © 2021 by Akhmad Hendriawan
+   Seluruh dokumen ini dapat digunakan dan disebarkan secara bebas untuk tujuan bukan
+   komersial (nonprofit), dengan syarat tidak menghapus atau merubah atribut penulis dan
+   pernyataan copyright yang disertakan dalam setiap dokumen. Tidak diperbolehkan melakukan
+- Pada Halaman ke tiga Terdapat TOC dengan judul "Daftar isi" untuk H1-H5
+- Halaman berikut Terdapat List of Figures dengan judul "Daftar Gambar" dihalaman yang berbeda
+- Terdapat Header "Copyright by Akhmad Hendriawan" pada setiap halaman kecuali halaman judul
+- Ukuran Ebook Standar Unesco
+- Ebook terlihat profesional dan siap untuk dipublish
+- bila membutuhkan instalasi font atau semacamnya sebisa mungkin menggunakan sudo apt install
+

@@ -1,0 +1,31 @@
+# metadata.yaml
+---
+title: "Memulai Belajar ESP32"
+author: "Akhmad Hendriawan"
+date: "2024"
+lang: id
+papersize: 240mm:165mm  # UNESCO standard book size
+mainfont: "Liberation Sans"  # Using system font that's definitely available
+sansfont: "Liberation Sans"
+monofont: "Liberation Mono"
+geometry:
+  - top=20mm
+  - left=25mm
+  - right=25mm
+  - bottom=25mm
+colorlinks: true
+linkcolor: NavyBlue
+toccolor: NavyBlue
+urlcolor: RoyalBlue
+header-includes:
+  - |
+    ```{=latex}
+    \usepackage{xcolor}
+    \usepackage{fancyhdr}
+    \usepackage{pagecolor}
+    \definecolor{chaptercolor}{HTML}{1a365d}
+    \definecolor{sectioncolor}{HTML}{2c5282}
+    \definecolor{subsectioncolor}{HTML}{2b6cb0}
+    \pagecolor{white}
+    ```
+---

@@ -1,0 +1,44 @@
+     \documentclass[a4paper,12pt]{article}
+     \usepackage{graphicx}
+     \usepackage{tocloft}
+     \usepackage{fancyhdr}
+     \usepackage{geometry}
+     \geometry{a4paper, left=1in, right=1in, top=1in, bottom=1in}
+
+     \pagestyle{fancy}
+     \fancyhf{}
+     \rhead{Copyright by Akhmad Hendriawan}
+     \cfoot{\thepage}
+
+     \begin{document}
+
+     % Cover Page
+     \begin{titlepage}
+         \centering
+         \includegraphics[width=\textwidth]{gambar.png}\par
+         \vspace{1cm}
+         {\Huge\bfseries Memulai Belajar ESP32\par}
+         \vfill
+     \end{titlepage}
+
+     % License Page
+     \newpage
+     \section*{Lisensi Dokumen}
+     \noindent
+     Copyright © 2021 by Akhmad Hendriawan\\
+     Seluruh dokumen ini dapat digunakan dan disebarkan secara bebas untuk tujuan bukan
+     komersial (nonprofit), dengan syarat tidak menghapus atau merubah atribut penulis dan
+     pernyataan copyright yang disertakan dalam setiap dokumen. Tidak diperbolehkan melakukan
+
+     % Table of Contents
+     \newpage
+     \tableofcontents
+
+     % List of Figures
+     \newpage
+     \listoffigures
+
+     \newpage
+     \end{document}
+     ```
+

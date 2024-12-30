@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{titling}
+\usepackage{caption}
+
+% Pengaturan margin
+\geometry{a4paper, margin=1in}
+
+% Header and Footer
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \rfoot{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\fancyhf{}
+\fancyhead[C]{Copyright by Akhmad Hendriawan}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Format numbering
+\pagenumbering{arabic}
+
+% Title format
+\titleformat{\chapter}[display]
+  {\normalfont\LARGE\bfseries}{\chaptertitlename~\thechapter}{20pt}{\LARGE}
+
+% Cover Page Style
+\newcommand{\coverpage}{
+    \thispagestyle{empty}
+    \vspace*{\fill}
+    \begin{center}
+        \Huge\textbf{\thetitle}
+    \end{center}
+    \vspace*{\fill}
+    \clearpage
+}
+
+% Daftar isi
+\renewcommand{\contentsname}{Daftar Isi}
+\renewcommand{\listfigurename}{Daftar Gambar}
+
+\title{Judul Buku Anda}
+\author{Akhmad Hendriawan}
+\date{2024}
+
+
+% Main document
+\begin{document}
+    \maketitle
+    \clearpage
+    \tableofcontents
+    \clearpage
+    \listoffigures
+    \clearpage
+\end{document}
+

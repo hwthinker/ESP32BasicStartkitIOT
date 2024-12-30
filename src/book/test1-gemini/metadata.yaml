@@ -1,0 +1,35 @@
+title: Memulai Belajar ESP32
+author: Akhmad Hendriawan
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \rhead{Copyright by Akhmad Hendriawan}
+  \cfoot{\thepage}
+preamble: |
+    \begin{titlepage}
+        \begin{center}
+            \includegraphics[width=0.8\textwidth]{gambar.png} % Menampilkan gambar sampul
+            \vspace{1cm} % Spasi vertikal
+            {\Huge \textbf{Memulai Belajar ESP32}\par} % Judul buku dengan format besar dan tebal
+            \vspace{2cm} % spasi vertikal
+        \end{center}
+    \end{titlepage}
+    \newpage % Membuat halaman baru untuk lisensi
+    \begin{center}
+        \textbf{Lisensi Dokumen:}
+    \end{center}
+    Copyright © 2021 by Akhmad Hendriawan
+
+    Seluruh dokumen ini dapat digunakan dan disebarkan secara bebas untuk tujuan bukan
+    komersial (nonprofit), dengan syarat tidak menghapus atau merubah atribut penulis dan
+    pernyataan copyright yang disertakan dalam setiap dokumen. Tidak diperbolehkan melakukan
+
+    \newpage % Membuat halaman baru untuk TOC
+toc: true
+toc-title: Daftar Isi
+lof: true
+lot-title: Daftar Gambar
+geometry: margin=1in # Ukuran standar Unesco (margin 1 inci)
+mainfont: Times New Roman # Contoh pemilihan jenis huruf
+fontsize: 12pt # Ukuran font

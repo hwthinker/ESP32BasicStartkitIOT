@@ -1,0 +1,13 @@
+bagaimana cara mengkonversikan file markdown input.md menjadi ebook pdf output.md dengan  ketentuan:
+1. Terdapat TOC dengan judul "Daftar isi". 
+2. Terdapat Daftar Gambar dengan judul "Daftar Gambar"
+3. Terdapat Header "copyright by Akhmad Hendriawan"
+4. Terdapat Pernyataan lisensi Dokumen diawal halaman"
+Lisensi Dokumen:
+Copyright © 2021 by Akhmad Hendriawan
+Seluruh dokumen ini dapat digunakan dan disebarkan secara bebas untuk tujuan bukan
+komersial (nonprofit), dengan syarat tidak menghapus atau merubah atribut penulis dan
+pernyataan copyright yang disertakan dalam setiap dokumen. Tidak diperbolehkan melakukan
+
+5. Ukuran Ebook Standar Unesco
+6. Terdapat Judul buku " Memulai Belajar ESP32"

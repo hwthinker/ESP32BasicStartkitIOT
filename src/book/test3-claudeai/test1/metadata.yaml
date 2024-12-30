@@ -1,0 +1,25 @@
+# metadata.yaml
+---
+title: "Memulai Belajar ESP32"
+author: "Akhmad Hendriawan"
+date: "2024"
+lang: id
+papersize: 240mm:165mm  # UNESCO standard book size
+mainfont: "Arial"
+geometry:
+  - top=20mm
+  - left=20mm
+  - right=20mm
+  - bottom=20mm
+header-includes:
+  - |
+    ```{=latex}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[R]{Copyright by Akhmad Hendriawan}
+    \usepackage{titlesec}
+    \usepackage{tocloft}
+    \renewcommand{\contentsname}{Daftar Isi}
+    \renewcommand{\listfigurename}{Daftar Gambar}
+    ```
+---

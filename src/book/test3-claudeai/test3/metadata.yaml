@@ -1,0 +1,32 @@
+---
+title: "Memulai Belajar ESP32"
+author: "Akhmad Hendriawan"
+date: "2021"
+lang: id
+papersize: a4
+toc: true
+toc-depth: 5
+lof: true
+mainfont: "DejaVu Sans"
+mainfontoptions:
+  - Scale=1.0
+header-includes:
+  - |
+    \usepackage{fontspec}
+    \usepackage{unicode-math}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot[L]{Copyright by Akhmad Hendriawan}
+    \fancyfoot[C]{\thepage}
+    \fancypagestyle{plain}{\pagestyle{fancy}}
+    \usepackage{graphicx}
+    \usepackage{titling}
+    \usepackage{etoolbox}
+  - |
+    \pretocmd{\listoffigures}{\clearpage\newpage}{}{}
+    \renewcommand{\listfigurename}{\newpage Daftar Gambar}
+    \addtocontents{toc}{\protect\newpage}
+    \BeforeBeginEnvironment{listoffigures}{\clearpage\newpage}
+    \AfterEndEnvironment{listoffigures}{\clearpage\newpage}
+---

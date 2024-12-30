@@ -1,0 +1,75 @@
+% header.tex
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lettrine}
+\usepackage{background}
+\usepackage{tikz}
+
+% Color definitions
+\definecolor{headercolor}{HTML}{1a365d}
+\definecolor{chaptercolor}{HTML}{1a365d}
+\definecolor{sectioncolor}{HTML}{2c5282}
+
+% Header configuration
+\pagestyle{fancy}
+\fancyhead[R]{\color{headercolor}\textbf{Copyright by Akhmad Hendriawan}}
+\fancyhead[L]{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Chapter styling
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{chaptercolor}}
+  {\chaptertitle}
+  {20pt}
+  {\Huge\raggedright}
+  [\vspace{1ex}{\titlerule[0.8pt]}]
+
+% Section styling
+\titleformat{\section}
+  {\Large\bfseries\color{sectioncolor}}
+  {\thesection}
+  {1em}
+  {}
+
+% Subsection styling
+\titleformat{\subsection}
+  {\large\bfseries\color{subsectioncolor}}
+  {\thesubsection}
+  {1em}
+  {}
+
+% TOC styling
+\renewcommand{\contentsname}{\color{chaptercolor}\huge\textbf{Daftar Isi}}
+\renewcommand{\listfigurename}{\color{chaptercolor}\huge\textbf{Daftar Gambar}}
+
+% TOC formatting
+\renewcommand{\cftchapfont}{\color{chaptercolor}\bfseries}
+\renewcommand{\cftsecfont}{\color{sectioncolor}}
+\renewcommand{\cftsubsecfont}{\color{subsectioncolor}}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% Custom chapter page style
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \huge\bfseries\color{chaptercolor} \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries\color{chaptercolor} #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother

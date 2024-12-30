@@ -1,0 +1,25 @@
+% header.tex
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{geometry}
+
+% Header configuration
+\pagestyle{fancy}
+\fancyhead[R]{Copyright by Akhmad Hendriawan}
+\fancyhead[L]{}
+\fancyfoot[C]{\thepage}
+
+% TOC and List of Figures configuration
+\renewcommand{\contentsname}{Daftar Isi}
+\renewcommand{\listfigurename}{Daftar Gambar}
+
+% Section numbering
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+% Title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitle}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
