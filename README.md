@@ -1,5 +1,27 @@
 # Modul ESP32 Basic Startkit IOT 
 
+<!-- hwthinker-store-links -->
+
+## Beli boardnya & tutorial lengkap
+
+**Board yang dipakai di repo ini tersedia di HwThinker Store:**
+
+- [Modul ESP32 Basic Startkit IOT Maker Starter Kit Learning Made Easy…](https://hwthinker.com/produk/fc891c9a-3dab-49a3-8789-bf5960ebff90)
+
+**Tutorial lengkap — langkah bergambar, troubleshooting, dan kode yang sudah diuji:**
+
+- [ESP32 Basic Startkit 15 — Kontrol IoT Multi-Device & Status Feedback](https://hwthinker.com/tutorials/esp32-basic-startkit-15-mqtt-feedback)
+- [ESP32 Basic Startkit 14 — MQTT Publisher & Subscriber + Node-RED](https://hwthinker.com/tutorials/esp32-basic-startkit-14-mqtt-pub-sub)
+- [ESP32 Basic Startkit 13 — Kirim Data Suhu/Kelembaban via MQTT](https://hwthinker.com/tutorials/esp32-basic-startkit-13-mqtt-pub)
+- [ESP32 Basic Startkit 12 — Display OLED 0.96 inch I2C](https://hwthinker.com/tutorials/esp32-basic-startkit-12-oled)
+- [ESP32 Basic Startkit 11 — Mengontrol Active Buzzer](https://hwthinker.com/tutorials/esp32-basic-startkit-11-active-buzzer)
+- [ESP32 Basic Startkit 10 — Mengontrol Passive Buzzer](https://hwthinker.com/tutorials/esp32-basic-startkit-10-passive-buzzer)
+
+Butuh bantuan pemasangan? Sapa kami lewat live chat di [hwthinker.com](https://hwthinker.com) — barang dikirim dari Surabaya, sudah diuji sebelum dikemas.
+
+<!-- /hwthinker-store-links -->
+
+
 ![ESP32 Kit](./assets/ESP32-Kit.png)
 
 
